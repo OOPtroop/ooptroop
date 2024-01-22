@@ -15,6 +15,6 @@ jobs:
     - name: Add to Project
       run: |
         # Set your project name
-        project_name="@Zgallagher729's OOPtroop"
+        project_name="@Zgallagher729's ooptroop"
         # Add the issue to the project using gh
         gh issue edit ${{ github.event.issue.number }} --add-project "$project_name"
